@@ -1,0 +1,33 @@
+WRITE SQL QUERY TO FIND THE ITEMS WHOSE PRICES ARE HIGHER THAN OR EQUAL 250rs.
+ORDER THE RESULT BY PRODUCT PRICE IN DESCENDING THEN PRODUCT NAME IN ASCENDING.RETURN PRO_NAME AND PRO_PRICE
+
+SELECT PRO_NAME,PRO_PRICE
+FROM computer
+WHERE PRO_PRICE>=250
+ORDER BY PRO_PRICE DESC,PRO_NAME ACS;
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WRITE A SQL QUERY TO FIND THE CHEAPEST ITEM.RETURN PRO_NAME AND PRO_PRICE.
+
+SELECT PRO_NAME,PRO_PRICE
+FROM computer
+WHERE PRO_PRICE=
+(SELECT MIN(PRO_PRICE)FROM computer);
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WRITE THE SQL QUERY TO CALCULATE THE AVERAGE PRICE OF THE ITEMS 
+FOR EACH COMPNY.RETURN AVERAGE PRICE AND COMPANY CODE. 
+
+SELECT AVG(PRO_PRICE),PRO_COM
+FROM computer
+PRO_COM;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WRITE THE SQL QUERY THE AVRAGE TOTAL FOR ALL THE PRODUCT MENTION IN THE TABLE 
+
+SELECT AVG(PRO_PRICE)FROM computer;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
