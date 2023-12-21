@@ -1,0 +1,3 @@
+(20)SQl Query to select range of products whose price in the range Rs 200 to 600.Return pro_id,pro_price,and pro_comm.
+
+SELECT * FROM item_mast WHERE PRO_PRICE BETWEEN 200 AND 600;

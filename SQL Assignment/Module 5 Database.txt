@@ -1,0 +1,65 @@
+(1) What do you understand By Database
+Data base is a organized collection of information or data store.
+Database is usually controlled by a (DBMS) Database Managment System
+
+(2) What is Normalization 
+Normalization is a process of organizing data in a Database
+(1NF)First Normal Form
+(2NF)Second Normal Form
+(3NF)Third Normal Form
+(BCNF)Boyce-Coded Normal Form
+
+(3)What is Difference between DBMS and RDBMS
+
+           DBMS                                                                                     RDBMS
+
+ Stands for Database Managment System              Stands Form Relational Database Managment System
+
+ There is high data redundancy                               There is low data redundancy
+
+ Store data in the form of a file                              Store data in the form of tables
+
+ Ex:Micrisoft Access                                               Ex:MySQL
+
+
+(4) What is MF Cod Rule of RDBMS System
+->The Foundation Rule
+->The Information Rule
+->The Guaranteed Access Rule
+->Systematic Treatment of Null Values
+->Active/Dynamic Online Catalog based on the relational model
+->Comprehensive Data subLanguage Rule
+->View Updating Rule
+->Physical Data Independence Rule
+->Non Subversion Rule
+
+(5)What do you understand By Data Redundancy
+Data redundancy is when multiple copies of the same information stored one place at a time
+
+(6)What is DDL Interpreter
+DDL (Data Definition Language) stores the record ina data.
+
+(7)What is DML Comiler In SQL
+DML (Data Manipulation Language)
+SELECT: Data select into table
+INSERT: Data Insert 
+UPDATE: Data Update
+DELETE: Delete data from database
+
+(8)What is SQL Key Constraints writing an Example of SQL Key Constraints
+NOT NULL - Values cannot be null
+UNIQUE-values cannot match any older value
+PRIMARY KEY-used to uniquely identify a row
+FOREIGN KEY-References a row in another table
+DEFAULT-set default value if not passed
+
+(9)What is save point?How to create a save point write a query
+Savepoint is a rollback point a transaction
+savepoint_statement
+savepoint savepoint_name
+
+(10)What is trigger and how to crate a trigger in sql
+Trigger use to store database server
+DELOMITER $$ create trigger trigger_name(after|before) {insert|update|delete} on table_name for each row begin
+insert into table_name set colimn_name=new|old.column_name
+END$$ 

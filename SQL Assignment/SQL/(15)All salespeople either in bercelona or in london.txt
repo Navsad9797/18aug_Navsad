@@ -1,0 +1,2 @@
+(15)All salespeople either in bercelona or in london
+SELECT SNAME,CITY FROM salseperson WHERE CITY in ('Barcelona','london');

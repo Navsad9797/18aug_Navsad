@@ -1,0 +1,3 @@
+(24)Frome SQL Query to calculate average price items for each company .return price and company code.
+
+SELECT AVG(PRO_PRICE),PRO_COM FROM item_mast PRO_COM;

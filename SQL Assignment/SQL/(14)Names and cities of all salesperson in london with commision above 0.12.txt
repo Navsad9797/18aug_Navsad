@@ -1,0 +1,2 @@
+(14)Names and cities of all salesperson in london with commision above 0.12
+SELECT SNAME,CITY FROM salseperson WHERE COMM<0.12 and CITY='London';

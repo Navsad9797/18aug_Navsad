@@ -1,0 +1,2 @@
+(3)Get first_name frome employee table using tom name "employee name".
+SELECT First_Name "Tom" FROM employee;  

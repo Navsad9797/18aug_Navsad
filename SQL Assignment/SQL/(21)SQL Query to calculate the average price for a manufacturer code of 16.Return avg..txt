@@ -1,0 +1,3 @@
+(21)SQL Query to calculate the average price for a manufacturer code of 16.Return avg.
+
+SELECT AVG(PRO_PRICE) FROM item_mast WHERE PRO_COM=16;

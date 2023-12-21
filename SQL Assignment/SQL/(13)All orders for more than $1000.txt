@@ -1,0 +1,2 @@
+(13)All orders for more than 1001
+SELECT * FROM customer WHERE FK_SNo>1001;

@@ -1,0 +1,4 @@
+(7) get department wise maximum salary from table order by 
+SELECT Department, MAX(Salary) 
+FROM Employee  
+ Department;

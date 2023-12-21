@@ -1,0 +1,2 @@
+(4)Get First_Name ,joining date and salary from employee table
+SELECT First_Name,Joining_date,salary FROM employee;

@@ -1,0 +1,4 @@
+(8)salaryascending
+SELECT * 
+FROM employee 
+ORDER BY salary ASC;

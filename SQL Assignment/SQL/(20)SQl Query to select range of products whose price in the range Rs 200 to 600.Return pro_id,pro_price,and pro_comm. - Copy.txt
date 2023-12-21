@@ -1,0 +1,2 @@
+(18) write SQL statement that display all the information about all salespeople
+SELECT * FROM  salespeople;

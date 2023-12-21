@@ -1,0 +1,3 @@
+(22)SQL Query to display the pro_name as 'item Name' and pro_priceas in RS.
+
+SELECT PRO_NAME AS "Item Name",PRO_PRICE AS "Price in Rs." FROM item_mast;

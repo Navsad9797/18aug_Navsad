@@ -1,0 +1,5 @@
+(19) Frome the following table,Write sql query to find orders that are delivered by a salesperson with id 5001 return ord_no,ord_date,purch_amt.
+
+SELECT ord_no,ord_date,purch_amt
+FROM orders
+WHERE salesman_id=5001;

@@ -1,0 +1,2 @@
+(6)Get employee details frome employee table whose first name contains 'j'
+SELECT * FROM employee WHERE First_Name LIKE 'j%';

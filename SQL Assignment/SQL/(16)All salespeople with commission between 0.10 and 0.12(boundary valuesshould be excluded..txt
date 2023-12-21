@@ -1,0 +1,2 @@
+(16)All salespeople with commission between 0.10 and 0.12(boundary valuesshould be excluded.
+SELECT SNAME,comm FROM salseperson WHERE COMM>0.10 and COMM<0.12;

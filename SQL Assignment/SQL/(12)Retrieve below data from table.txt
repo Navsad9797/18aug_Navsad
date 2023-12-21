@@ -1,0 +1,2 @@
+(12)Retrieve the below data from above table
+SELECT * FROM salseperson;

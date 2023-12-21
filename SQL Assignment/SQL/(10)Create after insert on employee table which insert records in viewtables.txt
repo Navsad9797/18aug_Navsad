@@ -1,0 +1,1 @@
+(10)Create after insert on employee table which insert records in viewtables
